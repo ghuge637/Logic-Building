@@ -18,3 +18,24 @@ public class Fibonachi
 	    System.out.println(fibo(n,dp));
   	}
 }
+
+
+// bottom up approach -> tabuiozation
+/*
+public class Fibonachi
+{
+	public static void main(String[] args) {
+	    int n = 7;
+	    
+	    int prev = 1;
+	    int prev2 = 0;
+	    
+	    for(int i=2; i<=n; i++){
+	        int cur = prev + prev2;
+	        prev2 = prev;
+	        prev = cur;
+	    }
+		System.out.println(prev);
+	}
+}
+*/
