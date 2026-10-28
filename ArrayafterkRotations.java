@@ -1,4 +1,4 @@
-
+//Rotate number k time
 public class ArrayafterkRotations
 {
 	public static void main(String[] args) {
