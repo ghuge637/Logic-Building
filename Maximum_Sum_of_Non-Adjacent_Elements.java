@@ -1,3 +1,4 @@
+// we have want to find max sum picking randome numbers from array there is one condition dont take adjecent elements
 import java.util.Arrays;
 public class Maximum_Sum_of_Non-Adjacent_Elements
 {
