@@ -1,3 +1,15 @@
+// Problem Statement: Maximum Dominance Score
+// You are given an array A consisting of N integers and an integer K.
+// Your task is to divide the array into exactly K non-empty contiguous subarrays.
+// The dominance score of a subarray is defined as the maximum frequency of any element in that subarray.
+// For example,
+// Subarray = [2, 3, 2, 4, 2]
+// •	Frequency of 2 = 3
+// •	Frequency of 3 = 1
+// •	Frequency of 4 = 1
+// Dominance Score = 3
+// The score of a partition is the sum of the dominance scores of all K subarrays.
+// Find the maximum possible score.
 
 import java.util.*;
 
